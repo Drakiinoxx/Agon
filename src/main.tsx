@@ -1,8 +1,18 @@
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router";
 
-import App from "./App.tsx";
-import Home from "./pages/Home.tsx";
+import App from "./App";
+
+// page components
+
+import Home from "./pages/Home/Home";
+
+import Champion from "./pages/Champion";
+import Classement from "./pages/Classement";
+import Epreuves from "./pages/Epreuves";
+import Planning from "./pages/Planning";
+
+// router creation
 
 const router = createBrowserRouter([
   {
@@ -12,9 +22,27 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      {
+        path: "/Champion",
+        element: <Champion />,
+      },
+      {
+        path: "/Classement",
+        element: <Classement />,
+      },
+      {
+        path: "/Epreuves",
+        element: <Epreuves />,
+      },
+      {
+        path: "/Planning",
+        element: <Planning />,
+      },
     ],
   },
 ]);
+
+// rendering
 
 const rootElement = document.getElementById("root");
 

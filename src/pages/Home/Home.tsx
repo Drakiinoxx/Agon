@@ -1,8 +1,12 @@
+import "./home.css";
+import NeoNav from "../../components/navbar/Navbar";
 import { useRef, useEffect } from "react";
-import Musique from "../components/Mucic/Musique";
-import Homes from "../components/Homes/Homes";
+import Musique from "../../components/Mucic/Musique";
+import Homes from "../../components/Homes/Homes";
+import AffichageHub from "../../components/AffichageHUB/AffichageHub";
+import HubClassement from "../../components/HubClassement/HubClassement";
 
-function home() {
+function Home() {
   const playMusicRef = useRef(null);
   useEffect(() => {
     const playOnClick = () => {
@@ -19,10 +23,12 @@ function home() {
 
   return (
     <div>
+      <NeoNav />
       <Musique registerPlayFn={(fn) => (playMusicRef.current = fn)} />
       <Homes />
+      <AffichageHub header="Classement" content={<HubClassement />} />
     </div>
   );
 }
 
-export default home;
+export default Home;
