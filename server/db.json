@@ -332,5 +332,115 @@
       "points": 98,
       "hero": "Alcibiade"
     }
-  ]
-}
+  ],
+  "Epreuve": [
+  {
+    "id": 1,
+    "nom": "Stadion",
+    "description": "Course du stade",
+    "distance": "~192 mètres (1 stade)",
+    "jour": "Jour 2",
+    "regles": "Course en ligne droite, départ debout sur une ligne de pierre (balbis), pieds calés dans des encoches. Faux départ = coup de fouet.",
+    "prestige": "L'épreuve reine ! Le vainqueur donnait son nom à l'Olympiade (ex: \"Olympiade de Koroibos\").",
+    "anecdote": "Koroibos d'Élis fut le premier champion olympique en 776 av. J.-C."
+    
+  },
+  {
+    "id": 2,
+    "nom": "Diaulos",
+    "description": "Double stade",
+    "distance": "~384 mètres (aller-retour)",
+    "jour": "Jour 2",
+    "regles": "Même départ que le stadion, demi-tour autour d'un poteau (kampter), retour au point de départ.",
+    "prestige": null,
+    "anecdote": "Le virage était technique — les athlètes se bousculaient souvent."
+    
+  },
+  {
+    "id": 3,
+    "nom": "Dolichos",
+    "description": "Course de fond",
+    "distance": "~4.5 km (20 à 24 stades)",
+    "jour": "Jour 2",
+    "regles": "Plusieurs allers-retours dans le stade. Endurance pure.",
+    "prestige": null,
+    "anecdote": "Léonidas de Rhodes remporta 4 victoires consécutives au dolichos."
+   
+  },
+  {
+    "id": 4,
+    "nom": "Hoplitodromos",
+    "description": "Course en armes",
+    "distance": "~384 mètres (2 stades)",
+    "jour": "Jour 5 (clôture des Jeux)",
+    "regles": "Courir avec casque, bouclier (et parfois jambières). Poids total ~25 kg.",
+    "prestige": "Symbolisait le retour à la guerre après la trêve olympique.",
+    "anecdote": "Introduit en 520 av. J.-C."
+   
+  },
+  {
+    "id": 5,
+    "nom": "Lutte",
+    "description": "Palé",
+    "distance": null,
+    "jour": "Jour 3",
+    "regles": "Debout uniquement. Objectif = mettre l'adversaire au sol 3 fois (épaules ou dos au sol). Pas de coups, prises seulement. Pas de catégories de poids !",
+    "prestige": "Le plus lourd avait l'avantage.",
+    "anecdote": "Milon de Crotone remporta 6 victoires olympiques consécutives, jamais battu."
+   
+  },
+  {
+    "id": 6,
+    "nom": "Pugilat",
+    "description": "Pygmé",
+    "distance": null,
+    "jour": "Jour 4",
+    "regles": "Boxe antique. Mains bandées de lanières de cuir (himantes). Pas de rounds, pas de catégories de poids. Combat jusqu'à KO ou abandon (lever le doigt). Interdits : pas de lutte, pas de coups sous la ceinture.",
+    "prestige": null,
+    "anecdote": "Très violent — oreilles en chou-fleur, nez cassés, parfois morts."
+  },
+  {
+    "id": 7,
+    "nom": "Pancrace",
+    "description": "Pankration",
+    "distance": null,
+    "jour": "Jour 4",
+    "regles": "MMA antique — coups, prises, projections, étranglements, tout est permis SAUF mordre et crever les yeux. Fin du combat : KO, abandon, ou mort.",
+    "prestige": null,
+    "anecdote": "Arrachion de Phigalie mourut pendant un combat mais fut déclaré vainqueur car son adversaire avait abandonné juste avant !"
+   
+  },
+  {
+    "id": 8,
+    "nom": "Pentathlon",
+    "description": "Cinq épreuves combinées",
+    "distance": null,
+    "jour": "Jour 2",
+    "regles": "5 épreuves dans l'ordre : Disque (bronze, ~2-4 kg), Saut en longueur (avec haltères pour l'élan), Javelot (avec courroie ankylé pour la rotation), Course (stadion), Lutte (pour départager). Système d'élimination progressif.",
+    "prestige": "Il fallait être polyvalent.",
+    "anecdote": null
+    
+  },
+  {
+    "id": 9,
+    "nom": "Course de chars",
+    "description": "Tethrippon",
+    "distance": "~14 km (12 tours)",
+    "jour": "Jour 1",
+    "regles": "4 chevaux, 12 tours à l'Hippodrome. Le propriétaire des chevaux était déclaré vainqueur, pas le conducteur (aurige). Des femmes ont donc \"gagné\" via leurs chevaux !",
+    "prestige": null,
+    "anecdote": "Alcibiade d'Athènes aligna 7 chars en une édition et prit les places 1, 2 et 4. Virages serrés, collisions fréquentes, souvent fatal."
+   
+  },
+  {
+    "id": 10,
+    "nom": "Course de chevaux",
+    "description": "Keles",
+    "distance": "~6 tours",
+    "jour": "Jour 1",
+    "regles": "Montés à cru (sans selle ni étriers) à l'Hippodrome.",
+    "prestige": null,
+    "anecdote": "Extrêmement difficile — les chutes étaient fréquentes."
+   
+  }]}
+
