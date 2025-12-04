@@ -9,7 +9,7 @@
 .Title_JO {
   display: flex;
   justify-content: center;
-  margin-top: 11rem;
+  margin-top: 13rem;
   font-size: 1.9rem;
   color: black;
   font-weight: bold;
@@ -20,3 +20,14 @@
   padding-right: 0.5rem;
 }
 
+.hub-grid {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.classement-container,
+.epreuve-container {
+  height: 280px;
+}

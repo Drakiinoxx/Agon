@@ -5,9 +5,10 @@ import Musique from "../../components/Mucic/Musique";
 import Homes from "../../components/Homes/Homes";
 import AffichageHub from "../../components/AffichageHUB/AffichageHub";
 import HubClassement from "../../components/HubClassement/HubClassement";
+import EpreuveHUB from "../../components/Epreuves/EpreuveHUB";
 
 function Home() {
-  const playMusicRef = useRef(null);
+  const playMusicRef = useRef<(() => void) | null>(null);
   useEffect(() => {
     const playOnClick = () => {
       if (playMusicRef.current) {
@@ -22,11 +23,14 @@ function Home() {
   }, []);
 
   return (
-    <div>
+    <div c>
       <NeoNav />
       <Musique registerPlayFn={(fn) => (playMusicRef.current = fn)} />
       <Homes />
-      <AffichageHub header="Classement" content={<HubClassement />} />
+      <div className="hub-grid">
+        <AffichageHub header="Classement" content={<HubClassement />} />
+        <AffichageHub header="Épreuves" content={<EpreuveHUB />} />
+      </div>
     </div>
   );
 }

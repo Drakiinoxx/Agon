@@ -1,0 +1,52 @@
+/* EpreuveHUB.css */
+
+.epreuve-container {
+  background-color: white;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  padding: 20px;
+  width: fit-content;
+  height: 15.3rem;
+}
+
+.epreuve-title {
+  color: #d4af37;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.epreuve-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.epreuve-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border: 1px solid #d4af37;
+  border-radius: 8px;
+  min-width: 150px;
+}
+
+.epreuve-nom {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.epreuve-participants {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.epreuve-participant {
+  margin-bottom: 4px;
+}
