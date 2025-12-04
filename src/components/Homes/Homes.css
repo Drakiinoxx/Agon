@@ -1,0 +1,31 @@
+.Background {
+  background-image: url(../../assets/colisé\ landing.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Title_JO {
+  display: flex;
+  justify-content: center;
+  margin-top: 11rem;
+  font-size: 1.9rem;
+  color: black;
+  font-weight: bold;
+  border-radius: 15px;
+  width: fit-content;
+  margin-inline: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.button-go {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  background-color: #fbf2c8;
+  border-radius: 20px;
+  width: 15rem;
+  font-size: 1.5rem;
+}
