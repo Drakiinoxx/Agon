@@ -1,8 +1,10 @@
-import NeoNav from "../components/navbar/Navbar"
+import "./home.css";
+import NeoNav from "../../components/navbar/Navbar";
 import { useRef, useEffect } from "react";
-import Musique from "../components/Mucic/Musique";
-import Homes from "../components/Homes/Homes";
-import AffichageHub from "../components/AffichageHUB/AffichageHub";
+import Musique from "../../components/Mucic/Musique";
+import Homes from "../../components/Homes/Homes";
+import AffichageHub from "../../components/AffichageHUB/AffichageHub";
+import HubClassement from "../../components/HubClassement/HubClassement";
 
 function Home() {
   const playMusicRef = useRef(null);
@@ -19,17 +21,14 @@ function Home() {
     return () => document.removeEventListener("click", playOnClick);
   }, []);
 
-
-
   return (
     <div>
-      <NeoNav/>
+      <NeoNav />
       <Musique registerPlayFn={(fn) => (playMusicRef.current = fn)} />
       <Homes />
-      <AffichageHub />
+      <AffichageHub header="Classement" content={<HubClassement />} />
     </div>
-  )
+  );
 }
-
 
 export default Home;

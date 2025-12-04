@@ -5,7 +5,7 @@ import App from "./App";
 
 // page components
 
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 
 import Champion from "./pages/Champion";
 import Classement from "./pages/Classement";
@@ -47,7 +47,5 @@ const router = createBrowserRouter([
 const rootElement = document.getElementById("root");
 
 if (rootElement != null) {
-  ReactDOM.createRoot(rootElement).render(
-    <RouterProvider router={router} />
-  );
+  ReactDOM.createRoot(rootElement).render(<RouterProvider router={router} />);
 }

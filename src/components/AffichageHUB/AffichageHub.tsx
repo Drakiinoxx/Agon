@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
 
-function AffichageHub() {
+type Props = {
+  header: React.ReactNode;
+  content: React.ReactNode;
+};
+
+function AffichageHub({ content }: Props) {
   const [showHub, setShowHub] = useState(false);
 
   useEffect(() => {
@@ -14,7 +19,7 @@ function AffichageHub() {
 
   return (
     <div>
-      <h1>Les composants du HUB</h1>
+      <div className="content">{content}</div>
     </div>
   );
 }
