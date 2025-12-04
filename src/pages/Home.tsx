@@ -3,7 +3,7 @@ import { useRef, useEffect } from "react";
 import Musique from "../components/Mucic/Musique";
 import Homes from "../components/Homes/Homes";
 
-function home() {
+function Home() {
   const playMusicRef = useRef(null);
   useEffect(() => {
     const playOnClick = () => {
@@ -19,7 +19,7 @@ function home() {
   }, []);
 
 
-function Home() {
+
   return (
     <div>
       <NeoNav/>
@@ -30,4 +30,4 @@ function Home() {
 }
 
 
-export default home;
+export default Home;
