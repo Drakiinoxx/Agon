@@ -41,6 +41,12 @@ app.get('/api/cities', async (req, res) => {
   res.json(db.cities || []);
 });
 
+// Récupérer toutes les villes
+app.get('/api/sport', async (req, res) => {
+  const db = await readDB();
+  res.json(db.epreuves || []);
+});
+
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`Mock API (Express) listening on http://localhost:${PORT}`));
