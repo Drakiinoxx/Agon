@@ -1,0 +1,54 @@
+/* AvenirHUB.css */
+
+.avenir-container {
+  background-color: white;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  padding: 20px;
+  width: fit-content;
+}
+
+.avenir-title {
+  color: #d4af37;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.avenir-grid {
+  display: flex;
+  gap: 30px;
+}
+
+.avenir-jour {
+  min-width: 120px;
+}
+
+.avenir-jour-title {
+  color: #d4af37;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.avenir-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.avenir-item {
+  padding: 8px 12px;
+  margin-bottom: 5px;
+  background: rgba(212, 175, 55, 0.1);
+  border-radius: 6px;
+}
+
+.avenir-nom {
+  color: #333;
+  font-size: 0.9rem;
+}
