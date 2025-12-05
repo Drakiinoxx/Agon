@@ -6,6 +6,7 @@ import Homes from "../../components/Homes/Homes";
 import AffichageHub from "../../components/AffichageHUB/AffichageHub";
 import HubClassement from "../../components/HubClassement/HubClassement";
 import EpreuveHUB from "../../components/Epreuves/EpreuveHUB";
+import Mvp from "../../components/Mvp/Mvp";
 
 function Home() {
   const playMusicRef = useRef<(() => void) | null>(null);
@@ -31,6 +32,7 @@ function Home() {
         <AffichageHub header="Classement" content={<HubClassement />} />
         <AffichageHub header="Épreuves" content={<EpreuveHUB />} />
       </div>
+      <AffichageHub header="Mvp" content={<Mvp />} />
     </div>
   );
 }

@@ -1,0 +1,64 @@
+/* MvpHUB.css */
+
+.mvp-container {
+  background-color: white;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  padding: 20px;
+  width: fit-content;
+  width: 58rem;
+}
+
+.mvp-title {
+  color: #d4af37;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.mvp-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.mvp-info {
+  flex: 1;
+}
+
+.mvp-nom {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.mvp-surnom {
+  font-style: italic;
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.mvp-detail {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.mvp-histoire {
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+.mvp-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #d4af37;
+}
